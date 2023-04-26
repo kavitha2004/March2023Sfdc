@@ -19,7 +19,7 @@ public class TC_1_LoginErrorMessage {
 		WebDriverManager.firefoxdriver().setup();
 		WebDriver driver = new FirefoxDriver();//defined as abstract method in the interface
 		//driver.launchApp("");
-		driver.get("https://login.salesforce.com");
+		driver.get("https://login.salesforce.com/");
 		driver.manage().window().maximize();
 		//Thread.sleep(3000);
 		
